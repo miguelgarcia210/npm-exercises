@@ -2,17 +2,21 @@
 import $ from 'jquery'
 // import {item, thing} from './practice.js'
 import {item as eggs, thing} from './practice.js' // added an alias to item
-// import {item, thing}
+import {niceMessage} from './say-hello.js'
+
+// console.log(niceMessage());
+console.log(niceMessage());
+
 // const {item,thing} = require('./practice.js');
 // const $ = require('jquery');
 // const cart = require('./practice');
 
-const sayHello = () => ("hello");
+// const sayHello = () => ("hello");
 
-sayHello();
+// sayHello();
 
 
-$("body").css("background-color", "lightcyan").html(`<h1>${sayHello()}</h1>`);
+// $("body").css("background-color", "lightcyan").html(`<h1>${sayHello()}</h1>`);
 
 // Only usable if const cart is uncommented
 // console.log(cart.item.color);
